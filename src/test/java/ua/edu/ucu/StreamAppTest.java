@@ -18,14 +18,7 @@ public class StreamAppTest {
         int[] intArr = {-1, 0, 1, 2, 3};
         intStream = AsIntStream.of(intArr);
     }
-    
-    @Test
-    public void testStreamOperations() {
-        System.out.println("streamOperations");
-        int expResult = 42;
-        int result = StreamApp.streamOperations(intStream);
-        // assertEquals(expResult, result);        
-    }
+   
 
     @Test
     public void testStreamToArray() {
